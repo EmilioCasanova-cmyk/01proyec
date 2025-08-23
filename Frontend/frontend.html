@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuxuryState | Bienes Raíces Premium</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Archivo CSS externo -->
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">Luxury<span>State</span></div>
+          <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Propiedades</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Agentes</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <div class="nav-buttons">
+            <a href="#" class="btn">Iniciar Sesión</a>
+            <a href="#" class="btn">Registrarse</a>
+          </div>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1>Encuentra tu hagar de ensueño con nosotros</h1>
+        <p>
+          Más de 10,000 propiedades exclusivas en todo el país. Servicio premium
+          con agentes certifications.
+        </p>
+        <a href="#" class="btn">Explorar Propiedades</a>
+
+        <div class="search-container">
+          <form class="search-form">
+            <input
+              type="text"
+              placeholder="Buscar propiedades..."
+              class="search-input"
+            />
+            <button type="submit" class="search-button">
+              <i class="fas fa-search"></i>
+            </button>
+            <body>
+              <select class="search-select">
+                <option value="all">Todas las categorías</option>
+                <option value="houses">Casas</option>
+                <option value="apartments">Apartamentos</option>
+                <option value="commercial">Comercial</option>
+              </select>
+            </body>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <div class="logo-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <div class="logo-text">UrbanEstate</div>
+          </div>
+          <div>
+            <h1>Tabla de Propiedades</h1>
+            <p class="subtitle">
+              Visualiza y gestiona todas tus propiedades en un solo lugar
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <div class="controls">
+        <div class="view-options">
+          <button class="view-btn active">
+            <i class="fas fa-table"></i> Tabla
+          </button>
+          <button class="view-btn"><i class="fas fa-th-large"></i> Grid</button>
+        </div>
+
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Buscar propiedades..." />
+        </div>
+
+        <button class="filters-btn">
+          <i class="fas fa-filter"></i> Filtros
+        </button>
+      </div>
+
+      <div class="table-container">
+        <table class="properties-table">
+          <thead>
+            <tr>
+              <th>Propiedad</th>
+              <th>Precio</th>
+              <th>Ubicación</th>
+              <th>Características</th>
+              <th>Tipo</th>
+              <th>Estado</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="property-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Casa Moderna"
+                    class="property-image"
+                  />
+                  <span class="property-title">Casa Moderna</span>
+                </div>
+              </td>
+              <td>
+                <div class="property-price">$3,850,000</div>
+              </td>
+              <td>
+                <div class="property-address">
+                  <i class="fas fa-map-marker-alt"></i> Bosques de las Lomas,
+                  CDMX
+                </div>
+              </td>
+              <td>
+                <div class="property-features">
+                  <span class="feature"><i class="fas fa-bed"></i> 4</span>
+                  <span class="feature"><i class="fas fa-bath"></i> 3</span>
+                  <span class="feature"
+                    ><i class="fas fa-ruler-combined"></i> 320 m²</span
+                  >
+                </div>
+              </td>
+              <td>Casa</td>
+              <td>
+                <span class="status-badge status-sale">
+                  <i class="fas fa-tag"></i> Venta
+                </span>
+              </td>
+              <td>
+                <div class="actions">
+                  <button class="action-btn favorite-btn">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                  <button class="action-btn contact-btn">
+                    <i class="fas fa-envelope"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="property-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1575517111839-3a3843ee7f5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Departamento Premium"
+                    class="property-image"
+                  />
+                  <span class="property-title">Departamento Premium</span>
+                </div>
+              </td>
+              <td>
+                <div class="property-price">$2,200,000</div>
+              </td>
+              <td>
+                <div class="property-address">
+                  <i class="fas fa-map-marker-alt"></i> Polanco, CDMX
+                </div>
+              </td>
+              <td>
+                <div class="property-features">
+                  <span class="feature"><i class="fas fa-bed"></i> 3</span>
+                  <span class="feature"><i class="fas fa-bath"></i> 2</span>
+                  <span class="feature"
+                    ><i class="fas fa-ruler-combined"></i> 180 m²</span
+                  >
+                </div>
+              </td>
+              <td>Departamento</td>
+              <td>
+                <span class="status-badge status-rent">
+                  <i class="fas fa-calendar-alt"></i> Renta
+                </span>
+              </td>
+              <td>
+                <div class="actions">
+                  <button class="action-btn favorite-btn active">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                  <button class="action-btn contact-btn">
+                    <i class="fas fa-envelope"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="property-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Residencia Campestre"
+                    class="property-image"
+                  />
+                  <span class="property-title">Residencia Campestre</span>
+                </div>
+              </td>
+              <td>
+                <div class="property-price">$5,750,000</div>
+              </td>
+              <td>
+                <div class="property-address">
+                  <i class="fas fa-map-marker-alt"></i> Valle de Bravo, EdoMex
+                </div>
+              </td>
+              <td>
+                <div class="property-features">
+                  <span class="feature"><i class="fas fa-bed"></i> 5</span>
+                  <span class="feature"><i class="fas fa-bath"></i> 4</span>
+                  <span class="feature"
+                    ><i class="fas fa-ruler-combined"></i> 450 m²</span
+                  >
+                </div>
+              </td>
+              <td>Casa</td>
+              <td>
+                <span class="status-badge status-sale">
+                  <i class="fas fa-tag"></i> Venta
+                </span>
+              </td>
+              <td>
+                <div class="actions">
+                  <button class="action-btn favorite-btn">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                  <button class="action-btn contact-btn">
+                    <i class="fas fa-envelope"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="property-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Loft Industrial"
+                    class="property-image"
+                  />
+                  <span class="property-title">Loft Industrial</span>
+                </div>
+              </td>
+              <td>
+                <div class="property-price">$1,850,000</div>
+              </td>
+              <td>
+                <div class="property-address">
+                  <i class="fas fa-map-marker-alt"></i> Roma Norte, CDMX
+                </div>
+              </td>
+              <td>
+                <div class="property-features">
+                  <span class="feature"><i class="fas fa-bed"></i> 2</span>
+                  <span class="feature"><i class="fas fa-bath"></i> 2</span>
+                  <span class="feature"
+                    ><i class="fas fa-ruler-combined"></i> 120 m²</span
+                  >
+                </div>
+              </td>
+              <td>Departamento</td>
+              <td>
+                <span class="status-badge status-rent">
+                  <i class="fas fa-calendar-alt"></i> Renta
+                </span>
+              </td>
+              <td>
+                <div class="actions">
+                  <button class="action-btn favorite-btn">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                  <button class="action-btn contact-btn">
+                    <i class="fas fa-envelope"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="property-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Penthouse con Terraza"
+                    class="property-image"
+                  />
+                  <span class="property-title">Penthouse con Terraza</span>
+                </div>
+              </td>
+              <td>
+                <div class="property-price">$4,200,000</div>
+              </td>
+              <td>
+                <div class="property-address">
+                  <i class="fas fa-map-marker-alt"></i> Santa Fe, CDMX
+                </div>
+              </td>
+              <td>
+                <div class="property-features">
+                  <span class="feature"><i class="fas fa-bed"></i> 3</span>
+                  <span class="feature"><i class="fas fa-bath"></i> 3</span>
+                  <span class="feature"
+                    ><i class="fas fa-ruler-combined"></i> 220 m²</span
+                  >
+                </div>
+              </td>
+              <td>Departamento</td>
+              <td>
+                <span class="status-badge status-sale">
+                  <i class="fas fa-tag"></i> Venta
+                </span>
+              </td>
+              <td>
+                <div class="actions">
+                  <button class="action-btn favorite-btn active">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                  <button class="action-btn contact-btn">
+                    <i class="fas fa-envelope"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="summary">
+        <div class="summary-text">Mostrando 5 de 128 propiedades</div>
+        <div class="summary-text">Página 1 de 26</div>
+      </div>
+
+      <div class="pagination">
+        <button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">4</button>
+        <button class="page-btn">5</button>
+        <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </body>
+</html>

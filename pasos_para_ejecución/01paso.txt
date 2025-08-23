@@ -1,0 +1,9 @@
+Instalación y Ejecución del Backend
+Abre una terminal en la carpeta Backend
+
+Ejecuta los siguientes comandos:
+# Instalar dependencias
+npm install
+
+# Iniciar el servidor en modo desarrollo
+npm run dev

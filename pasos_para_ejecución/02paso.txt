@@ -1,0 +1,6 @@
+Configuración de la Base de Datos
+Asegúrate de tener MySQL instalado y ejecutándose
+
+Ejecuta el script SQL proporcionado anteriormente para crear la base de datos y las tablas
+
+Los datos de ejemplo se insertarán automáticamente

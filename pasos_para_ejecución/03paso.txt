@@ -1,0 +1,16 @@
+Verificación Final
+Asegúrate de que el backend esté ejecutándose en el puerto 3000
+
+Verifica que la base de datos esté creada y con datos
+
+Abre el frontend en tu navegador
+
+Prueba las funcionalidades de:
+
+Carga de propiedades desde la API
+
+Búsqueda y filtrado
+
+Favoritos (requiere login)
+
+Contacto con agentes (requiere login)
